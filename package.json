@@ -1,0 +1,29 @@
+{
+	"name": "@ghasemkiani/dogecoin",
+	"version": "1.0.0",
+	"description": "A simple utility for the Dogecoin blockchain",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ghasemkiani/dogecoin.git"
+	},
+	"keywords": [
+		"dogecoin",
+		"blockchain"
+	],
+	"author": "Ghasem Kiani",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ghasemkiani/dogecoin/issues"
+	},
+	"homepage": "https://github.com/ghasemkiani/dogecoin#readme",
+	"dependencies": {
+		"@ghasemkiani/base": "github:ghasemkiani/base",
+		"@ghasemkiani/dogechain-info-api": "github:ghasemkiani/dogechain-info-api",
+		"decimal.js": "^10.4.3"
+	}
+}
